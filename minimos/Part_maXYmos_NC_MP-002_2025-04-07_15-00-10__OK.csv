@@ -1,0 +1,428 @@
+Part protocol
+File name,Part_maXYmos_NC_MP-002_2025-04-07_15-00-10__OK.csv
+Protocol version,6.00.03
+
+Index,Result information,Process values - curve related,Process values - EO related,Evaluation objects settings,Switch signal settings,Device information,Servo,Channel-X settings,Channel-Y settings,Cycle control settings,Evaluation settings,Trigger Y settings,Block settings,Measuring curve,Measuring points,Sequence,
+Line,10,30,40,70,100,120,140,150,190,220,240,250,260,270,280,410,
+
+
+
+Result information
+Date,2025/04/07
+Time,15:00:10
+Cycle number,451
+Total result,OK
+Triggered switch signals,
+Part serial number,
+Measuring program name,BMW ACSM7
+Measuring program number,2
+Zero X offset,0.00,mm
+Tara Y offset,0.00,kN
+
+
+
+
+
+
+
+
+
+Process values - curve related
+Block X,130.99,mm,XMIN-X,126.07,mm
+Block Y,9.30,kN,XMIN-Y,0.11,kN
+Ref X,127.97,mm,XMAX-X,130.99,mm
+Peak-peak X,4.92,mm,XMAX-Y,9.30,kN
+Peak-peak Y,9.22,kN,YMIN-X,126.18,mm
+,,,YMIN-Y,0.08,kN
+,,,YMAX-X,130.98,mm
+,,,YMAX-Y,9.30,kN
+
+Process values - EO related,Result,Entry,Exit,XMIN-X,XMIN-Y,XMAX-X,XMAX-Y,YMIN-Y,YMIN-X,YMAX-Y,YMAX-X,Calculated result,NOK cause,Violation X,Violation Y,Ref X,Ref Y,X at Delta-Y,Entry-X,Entry-Y,Exit-X,Exit-Y
+,,,,mm,kN,mm,kN,kN,mm,kN,mm,-,-,mm,kN,mm,kN,mm,mm,kN,mm,kN
+EO-01,OK,,,129.44,6.15,130.50,8.47,6.15,129.44,8.47,130.50,,,,,,,,,,,,
+EO-02,None,
+EO-03,OK,0.10,9.05,,,,,,,,,,,,,,,,,,,,
+EO-04,None,
+EO-05,None,
+EO-06,None,
+EO-07,None,
+EO-08,None,
+EO-09,None,
+EO-10,None,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Envelope starts at column,57
+Evaluation objects settings,Reaction,X reference,Y-Reference,XMin,XMax,YMin,YMax,Entry,Exit,Curve part,Catch zone X,Catch zone Y,EO Name,Description,Re-entry ignored,Generate statistics,X-Hysteresis,Y-Hysteresis,Down sampling rate,Calc limit min,Calc limit max,Grad limit min,Grad limit max,Hyst limit min,Hyst limit max,Speed limit min,Speed limit max,Time limit min,Time limit max,Is curve inside box,GetRef type,CalcInput1 | dx,CalcInput2 | dx,Calc operation,Work limit min,Work limit max,Average limit min,Average limit max,Max bending,Detection dX,Signal,Operation,State,Visualization offset X,Visualization offset Y,Delta-Y Max,X1Min,X1Max,X2Min,X2Max,Y1Min,Y1Max,Y2Min,Y2Max,-,Offset type,numPoints,Upper bound offset,Lower bound offset,Upper bound factor,Lower bound factor,Tracking activated,Weighting,Tracking alarm limit,Tracking warning limit,Upper bound,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Lower bound
+EO-01,UNI-BOX,ABSOLUTE,ABSOLUTE,129.18,130.50,6.15,9.89,ANY,ANY,ANY,CATCH_ZONE_UNLIMITED,CATCH_ZONE_UNLIMITED,,,FALSE,TRUE,0.00,0.00,1,,,,,,,,,,,,,,,,,,,,,,,,,0.00,0.00,,,,,,,,,,
+EO-02,OFF
+EO-03,ENVELOPE,ABSOLUTE,ABSOLUTE,126.47,130.90,,,LEFT,RIGHT,POSITIVE,+0%,CATCH_ZONE_UNLIMITED,,,FALSE,TRUE,0.00,0.00,1,,,,,,,,,,,,,,,,,,,,,,,,,0.00,0.00,,,,,,,,,,,Constant - Symmetric,50,4.24,4.24,3.000,3.000,FALSE,10.00,0.10,0.1,4.31259,4.29456,4.30890,4.30890,4.31201,4.31201,4.30007,4.30007,4.31723,4.31723,,4.32061,4.32061,4.32079,4.32079,4.32119,4.32119,4.32434,4.32434,4.40193,4.40193,4.50331,4.58059,4.66513,4.75943,4.86117,5.01032,5.24718,5.68193,6.28144,7.18416,8.17982,9.21622,10.28957,11.36426,12.30203,12.85560,12.88739,12.75399,12.65267,12.56901,12.61395,12.74716,12.89681,13.04214,13.17121,13.25678,13.33619,13.34832,13.48137,-4.16741,-4.18544,-4.17110,-4.17110,-4.16799,-4.16799,-4.17993,-4.17993,-4.16277,-4.16277,,-4.15939,-4.15939,-4.15921,-4.15921,-4.15881,-4.15881,-4.15566,-4.15566,-4.07807,-4.07807,-3.97669,-3.89941,-3.81487,-3.72057,-3.61883,-3.46968,-3.26911,-2.96409,-2.35775,-1.49130,-0.52933,0.48193,1.52975,2.61822,3.60604,4.34609,4.40739,4.27021,4.17267,4.08901,4.13395,4.26716,4.41681,4.56186,4.69121,4.77678,4.85619,4.86832,5.00137
+EO-04,OFF
+EO-05,OFF
+EO-06,OFF
+EO-07,OFF
+EO-08,OFF
+EO-09,OFF
+EO-10,OFF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Switch signal settings,Channel,Threshold at,,Trigger from,Reference,Latch until
+Type S1,OFF
+Type S2,OFF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Device information
+Device type,maXYmos NC
+Device type number,5847B0
+Device serial number,11347NC
+Firmware version,1.6.6 (r094413)
+-
+-
+-
+-
+-
+IP Address,192.168.1.252
+Network name,maXYmos NC
+Profibus address,10
+-
+-
+-
+Device name,maXYmos NC
+Company name,
+Comment,
+
+Servo
+Servo version,n/a,Servo max. speed,300.000,mm/s
+Type NC Joining Module,n/a,Range min.,0.00,mm
+Serial number NC j.mod.,n/a,Range max.,400.00,mm
+Brake,Holding Brake 5.02 Nm,Servo reference position,0.00,mm
+Operating mode,Manual Work,Max. jog speed,10.000,mm/s
+Brake test,Disabled,Jog. range min,0.00,mm
+Automatic power,False,Jog. range max,400.00,mm
+,,Reference speed,10.000,mm/s
+
+Channel-X settings
+Use the settings from global setup,True
+Sensor-X type,Servo
+Unit,mm
+Used range from,0.00,mm
+Used range to,400.00,mm
+Decimal places,2 (iiiii.ff)
+-
+-
+-
+-
+-
+Test point,0.00,mm
+Tolerance,2.00,mm
+Enable sensor test by dig-input,TRUE
+Zoom from,125.67,mm
+Zoom to,130.38,mm
+Master Measurement Enable,FALSE
+Master Measurement Nominal Position,0.00,mm
+Encoder interpolation factor,-
+Encoder electrical interface,-
+Encoder referencing type,-
+Encoder referencing edge,-
+Encoder pulses per minute,-
+Encoder use every nth-mark,-
+Reference,-
+Encoder reference points,-
+Encoder coding,-
+Encoder width,-
+Encoder optimization,-
+Encoder clock frequency,-
+Termination resistor,-
+
+
+
+
+
+
+
+
+Channel-Y settings
+Use the settings from global setup,True
+Sensor-Y type,±10V (2 ranges)
+Unit,kN
+Used range from,0.00,kN
+Used range to,30.00,kN
+Decimal places,2 (iiiii.ff)
+Selected range,Range 1
+Force value 1,30.00,kN,Signal force value 1,7.9175,V,Force value 2,15.00,kN,Signal force value 2,7.8291,V
+Zero point,0.00,kN,-0.013,V
+Invert signal,FALSE
+Filter,OFF
+Piezo reset,TRUE
+Test point,0.00,kN
+Tolerance,3.00,kN
+Enable sensor test by dig-input,FALSE
+Zoom from,-3.22,kN
+Zoom to,12.38,kN
+Reset signal,Reset = High
+Measure range signal,1 = High / 2 = Low
+
+
+
+
+
+
+
+
+
+
+Cycle control settings
+Use the settings from global setup,True
+Measuring function,Y (X)
+Delta-X,User-Defined,0.2000,mm
+START condition,Dig-Input
+STOP condition,Dig-Input
+Cycle time out,60.000,s
+Turning point LEFT,NONE
+Turning point RIGHT,XMAX
+Cut curve at,Turning Point RIGHT
+Gradient Delta X,-
+
+
+
+
+
+
+
+
+
+Evaluation settings
+Capture only first NOK-EO for statistics,False
+Hysteresis-X,0.0,%
+Hysteresis-Y,0.0,%
+
+
+
+
+
+
+Trigger Y settings
+Threshold,0.19,kN
+Value X at Trigger Y,0.00,mm
+Approach from,BELOW
+
+
+
+
+
+
+Block settings
+Value X at block,XMAX
+Block at,0.00,mm
+
+
+
+
+
+
+
+Measuring curve
+Number of measuring points,121
+Ref. Graph on,ABSOLUTE
+Curve segment,0,121,
+
+
+Time,X(ABSOLUTE),Y,X(ABSOLUTE)
+
+
+s,mm,kN,mm
+0.0001,126.06770,0.10682,126.06770
+0.0084,126.06750,0.10571,126.06750
+0.2169,126.18120,0.07994,126.18120
+0.3611,126.26770,0.10826,126.26770
+0.6949,126.46770,0.10006,126.46770
+1.0294,126.66780,0.10875,126.66780
+1.3621,126.86790,0.10678,126.86790
+1.6959,127.06800,0.10870,127.06800
+2.0289,127.26810,0.10179,127.26810
+2.3629,127.46810,0.11927,127.46810
+2.6953,127.66810,0.12673,127.66810
+3.0266,127.86810,0.17025,127.86810
+3.3623,128.06820,0.18443,128.06820
+3.6958,128.26820,0.21891,128.26820
+4.0298,128.46820,0.30982,128.46820
+4.2121,128.57760,0.41149,128.57760
+4.3623,128.66760,0.51261,128.66760
+4.4700,128.73150,0.61354,128.73150
+4.5373,128.77190,0.71817,128.77190
+4.6007,128.81070,0.82297,128.81070
+4.6679,128.85030,0.92814,128.85030
+4.7257,128.88630,1.02910,128.88630
+4.7826,128.91880,1.13064,128.91880
+4.8305,128.94830,1.23238,128.94830
+4.8768,128.97540,1.33608,128.97540
+4.9128,128.99660,1.43773,128.99660
+4.9419,129.01400,1.53883,129.01400
+4.9669,129.02860,1.64188,129.02860
+4.9900,129.04230,1.74346,129.04230
+5.0134,129.05670,1.84480,129.05670
+5.0366,129.07050,1.95121,129.07050
+5.0572,129.08270,2.05710,129.08270
+5.0763,129.09370,2.15873,129.09370
+5.0956,129.10490,2.25966,129.10490
+5.1122,129.11520,2.36507,129.11520
+5.1282,129.12540,2.46511,129.12540
+5.1465,129.13670,2.56577,129.13670
+5.1615,129.14560,2.66577,129.14560
+5.1775,129.15490,2.76721,129.15490
+5.1947,129.16470,2.86798,129.16470
+5.2108,129.17390,2.96907,129.17390
+5.2262,129.18310,3.07111,129.18310
+5.2405,129.19190,3.17164,129.19190
+5.2536,129.19980,3.27187,129.19980
+5.2692,129.20920,3.37192,129.20920
+5.2842,129.21800,3.47194,129.21800
+5.2982,129.22620,3.57268,129.22620
+5.3139,129.23530,3.67268,129.23530
+5.3263,129.24250,3.77290,129.24250
+5.3417,129.25180,3.87710,129.25180
+5.3552,129.25990,3.97812,129.25990
+5.3689,129.26820,4.07864,129.26820
+5.3824,129.27600,4.17883,129.27600
+5.3967,129.28480,4.28000,129.28480
+5.4101,129.29270,4.38102,129.29270
+5.4239,129.30110,4.48149,129.30110
+5.4382,129.30980,4.58166,129.30980
+5.4510,129.31760,4.68173,129.31760
+5.4642,129.32560,4.78460,129.32560
+5.4778,129.33380,4.88516,129.33380
+5.4915,129.34190,4.98540,129.34190
+5.5056,129.35000,5.08729,129.35000
+5.5219,129.35960,5.19116,129.35960
+5.5357,129.36800,5.29472,129.36800
+5.5485,129.37600,5.39577,129.37600
+5.5600,129.38330,5.49658,129.38330
+5.5745,129.39250,5.59746,129.39250
+5.5882,129.40100,5.70959,129.40100
+5.6025,129.40950,5.80977,129.40950
+5.6180,129.41840,5.90996,129.41840
+5.6330,129.42700,6.01123,129.42700
+5.6475,129.43570,6.11270,129.43570
+5.6615,129.44420,6.21287,129.44420
+5.6757,129.45290,6.31580,129.45290
+5.6904,129.46190,6.41679,129.46190
+5.7057,129.47100,6.51887,129.47100
+5.7227,129.48110,6.61924,129.48110
+5.7376,129.48990,6.71945,129.48990
+5.7540,129.49950,6.81992,129.49950
+5.7702,129.50920,6.92023,129.50920
+5.7864,129.51900,7.02173,129.51900
+5.8031,129.52910,7.12199,129.52910
+5.8202,129.53960,7.22475,129.53960
+5.8405,129.55180,7.32494,129.55180
+5.8571,129.56200,7.42530,129.56200
+5.8765,129.57420,7.52606,129.57420
+5.8985,129.58770,7.62785,129.58770
+5.9270,129.60460,7.72789,129.60460
+5.9502,129.61850,7.82811,129.61850
+5.9790,129.63680,7.92854,129.63680
+6.0337,129.67100,8.02937,129.67100
+6.1569,129.74590,7.92647,129.74590
+6.1948,129.76870,7.82540,129.76870
+6.2263,129.78800,7.72228,129.78800
+6.2686,129.81370,7.62076,129.81370
+6.3188,129.84400,7.52021,129.84400
+6.3740,129.87600,7.41683,129.87600
+6.4253,129.90830,7.31464,129.90830
+6.5442,129.97840,7.21330,129.97840
+6.8062,130.13360,7.31729,130.13360
+6.8713,130.17390,7.42045,130.17390
+6.9293,130.20710,7.52199,130.20710
+6.9772,130.23630,7.62333,130.23630
+7.0284,130.26630,7.72705,130.26630
+7.0774,130.29570,7.82720,130.29570
+7.1253,130.32470,7.92735,130.32470
+7.1737,130.35440,8.02831,130.35440
+7.2245,130.38400,8.12867,130.38400
+7.2747,130.41520,8.23084,130.41520
+7.3404,130.45350,8.33133,130.45350
+7.3921,130.48540,8.43138,130.48540
+7.4631,130.52750,8.53377,130.52750
+7.5452,130.57730,8.63657,130.57730
+7.6683,130.65110,8.73881,130.65110
+7.8970,130.78770,8.84082,130.78770
+8.0000,130.85020,8.94334,130.85020
+8.0820,130.89870,9.04679,130.89870
+8.1514,130.94160,9.14892,130.94160
+8.2025,130.97050,9.25335,130.97050
+8.2281,130.98480,9.30265,130.98480
+8.2306,130.98590,9.29508,130.98590
+
+
+
+
+
+
+
+
+
+Sequence Editor,
+Main,Label,LABEL,1,
+,Motion,local home,Reference,ABSOLUTE,Position,50.00,mm,User,SPEED,120.000,mm/s,User,Max. force,10.00,kN,User,Tara,Disabled,Tara. position,0.00,mm,User,Deformation,0.0000,mm/kN,User,Stop on external signal,False,Condition,POSITION,
+,Motion,MOTION,Reference,ABSOLUTE,Position,124.00,mm,User,SPEED,100.000,mm/s,User,Max. force,10.00,kN,User,Tara,Disabled,Tara. position,0.00,mm,User,Deformation,0.0000,mm/kN,User,Stop on external signal,False,Condition,POSITION,
+,Motion,MOTION,Reference,ABSOLUTE,Position,126.08,mm,User,SPEED,5.000,mm/s,User,Max. force,15.00,kN,User,Tara,Disabled,Tara. position,0.00,mm,User,Deformation,0.0000,mm/kN,User,Stop on external signal,False,Condition,POSITION,
+,Measure,MEASURE,START,
+,Motion,Pressfit,Reference,ABSOLUTE,Position,131.00,mm,User,SPEED,0.600,mm/s,User,Max. force,15.00,kN,User,Tara,Disabled,Tara. position,0.00,mm,User,Deformation,0.0000,mm/kN,User,Stop on external signal,False,Condition,POSITION,
+,Measure,MEASURE,STOP,
+,Timer,TIMER,500,ms,User,
+,Motion,MOTION,Reference,ABSOLUTE,Position,130.90,mm,User,SPEED,5.000,mm/s,User,Max. force,15.00,kN,User,Tara,Disabled,Tara. position,0.00,mm,User,Deformation,0.0000,mm/kN,User,Stop on external signal,False,Condition,POSITION,
+,Output,OUTPUT,Value,1XXXXXXXXXXX,
+,Timer,TIMER,300,ms,User,
+,Output,OUTPUT,Value,0XXXXXXXXXXX,
+,Motion,MOTION,Reference,ABSOLUTE,Position,124.00,mm,User,SPEED,5.000,mm/s,User,Max. force,10.00,kN,User,Tara,Disabled,Tara. position,0.00,mm,User,Deformation,0.0000,mm/kN,User,Stop on external signal,False,Condition,POSITION,
+,Home position,HOME_POSITION,Reference,ABSOLUTE,Position,50.00,mm,User,SPEED,115.000,mm/s,User,Max. force,5.00,kN,User,Min. force,-5.00,kN,User,
+,Sequence end,SEQUENCE_END,
+Sub.1,Label,LABEL,1,
+Sub.2,Label,LABEL,1,
+Sub.3,Label,LABEL,1,

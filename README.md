@@ -82,7 +82,7 @@ Once the analysis is complete, users can copy the generated envelope point table
 - Plotly
 
 ### Processing Workflow
-1. mport curve data from Excel or CSV files.
+1. Import curve data from Excel or CSV files.
 2. Extract force and displacement information.
 3. Standardize and clean datasets.
 4. Interpolate all curves to a common distance axis.
